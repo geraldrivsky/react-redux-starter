@@ -3,8 +3,5 @@ public
 build
 src/public
 src/dev
-src/reportWebVitals.ts
 README.md
 .editorconfig
-.husky
-.idea
