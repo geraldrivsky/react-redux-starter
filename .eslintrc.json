@@ -24,19 +24,13 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "no-param-reassign": 0,
     "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": [
-      2,
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-    ],
     "react/function-component-definition": [
       2,
       {
         "namedComponents": "arrow-function"
       }
     ],
-    "no-shadow": "off",
     "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/no-unused-vars": [
       "warn",
@@ -46,8 +40,10 @@
         "ignoreRestSiblings": false
       }
     ],
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-shadow": ["error"],
+    "react/jsx-filename-extension": [
+      2,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
